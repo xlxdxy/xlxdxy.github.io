@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>「中文加密」 | 琐记</title>
+<meta name="description" content="黄徐升的博客">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xlxdxy.github.io/favicon.ico?v=1622190997491">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://xlxdxy.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://xlxdxy.github.io">
+        <img class="avatar" src="https://xlxdxy.github.io/images/avatar.png?v=1622190997491" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://xlxdxy.github.io">
+        <h1 class="site-title">琐记</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://huangxusheng.top/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://images.unsplash.com/photo-1586521995659-4204fe01d104?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1189&amp;q=80')">
+            </div>
+          
+          <h2 class="post-title">「中文加密」</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-03-02</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://xlxdxy.github.io/tag/gs-UFtazM/">
+                    有趣
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://xlxdxy.github.io/tag/BVDBdjbi6A/">
+                    上网
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p>我在网上冲浪时发现几个有趣的网站，都是转换文字的，有点搞笑。</p>
+<ul>
+<li>
+<p><a href="https://cnvoice.herokuapp.com/">中乱文续成生器</a><br>
+科学研发究现，汉字的排顺列不序是影会阅读响验体的。</p>
+</li>
+<li>
+<p><a href="http://www.fzlft.com/huo/?">火星文转换器</a><br>
+←zǎǐ鈥星文蓅荇的榯鯸，卧寰Ьū浍仧網。楆媞卧能早點壆浍仧網⒐ぬㄋ。→</p>
+</li>
+<li>
+<p><a href="https://chouxiang.ml/">抽象话转换器</a><br>
+🔪🧵在我✌️8️⃣太明白孙🐶🔟🛌，8️⃣📄🔪这🀄🎨🔟怎么发展💧，感觉8️⃣太👍玩。</p>
+</li>
+</ul>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://xlxdxy.github.io/post/abstruse-goose/">
+              <h3 class="post-title">
+                下一篇：漫画站 Abstruse Goose
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">黄徐升的博客</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  <a href="https://huangxusheng.top/">琐记</a>   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> - <a href="http://www.beian.miit.gov.cn/"> 皖ICP备20002381号 </a> | <a class="rss" href="https://xlxdxy.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '5767f478d6add5266893',
+        clientSecret: 'a089deaa7f40929e32d376d921a8456b6da64aff',
+        repo: 'hello-world',
+        owner: 'xlxdxy',
+        admin: ['xlxdxy'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
